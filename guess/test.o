@@ -316,9 +316,9 @@ Guesses generated: 797589
 Guesses generated: 927462
 Guesses generated: 1051391
 密码数量: 1051391
-串行哈希时间: 1.0288 秒
-SIMD哈希时间: 1.45151 秒
-加速比: 0.708775x
+串行哈希时间: 0.362576 秒
+SIMD哈希时间: 0.318201 秒
+加速比: 1.13946x
 Guesses generated: 1155657
 Guesses generated: 1265010
 Guesses generated: 1365026
@@ -329,9 +329,9 @@ Guesses generated: 1863276
 Guesses generated: 1986926
 Guesses generated: 2099050
 密码数量: 1047659
-串行哈希时间: 1.02534 秒
-SIMD哈希时间: 1.4265 秒
-加速比: 0.718781x
+串行哈希时间: 0.362065 秒
+SIMD哈希时间: 0.295249 秒
+加速比: 1.2263x
 Guesses generated: 2218748
 Guesses generated: 2318998
 Guesses generated: 2489683
@@ -341,9 +341,9 @@ Guesses generated: 2813981
 Guesses generated: 2958975
 Guesses generated: 3104864
 密码数量: 1005814
-串行哈希时间: 1.00112 秒
-SIMD哈希时间: 1.41473 秒
-加速比: 0.707638x
+串行哈希时间: 0.346545 秒
+SIMD哈希时间: 0.281203 秒
+加速比: 1.23237x
 Guesses generated: 3205014
 Guesses generated: 3314970
 Guesses generated: 3415152
@@ -354,9 +354,9 @@ Guesses generated: 3899792
 Guesses generated: 4080351
 Guesses generated: 4243981
 密码数量: 1139117
-串行哈希时间: 1.15626 秒
-SIMD哈希时间: 1.58388 秒
-加速比: 0.730016x
+串行哈希时间: 0.392369 秒
+SIMD哈希时间: 0.326885 秒
+加速比: 1.20033x
 Guesses generated: 4345439
 Guesses generated: 4466915
 Guesses generated: 4570085
@@ -367,9 +367,9 @@ Guesses generated: 5044427
 Guesses generated: 5187259
 Guesses generated: 5372573
 密码数量: 1128592
-串行哈希时间: 1.13734 秒
-SIMD哈希时间: 1.58039 秒
-加速比: 0.71966x
+串行哈希时间: 0.391088 秒
+SIMD哈希时间: 0.327183 秒
+加速比: 1.19532x
 Guesses generated: 5483344
 Guesses generated: 5591108
 Guesses generated: 5721399
@@ -379,9 +379,9 @@ Guesses generated: 6160200
 Guesses generated: 6305359
 Guesses generated: 6436845
 密码数量: 1064272
-串行哈希时间: 1.08541 秒
-SIMD哈希时间: 1.52227 秒
-加速比: 0.713019x
+串行哈希时间: 0.367028 秒
+SIMD哈希时间: 0.284415 秒
+加速比: 1.29047x
 Guesses generated: 6555026
 Guesses generated: 6792307
 Guesses generated: 6934296
@@ -390,9 +390,9 @@ Guesses generated: 7177435
 Guesses generated: 7370464
 Guesses generated: 7481420
 密码数量: 1044575
-串行哈希时间: 1.06715 秒
-SIMD哈希时间: 1.47292 秒
-加速比: 0.724511x
+串行哈希时间: 0.358875 秒
+SIMD哈希时间: 0.278793 秒
+加速比: 1.28725x
 Guesses generated: 7620794
 Guesses generated: 7720944
 Guesses generated: 7822094
@@ -403,9 +403,9 @@ Guesses generated: 8282785
 Guesses generated: 8382935
 Guesses generated: 8483085
 密码数量: 1001665
-串行哈希时间: 1.02227 秒
-SIMD哈希时间: 1.41721 秒
-加速比: 0.721328x
+串行哈希时间: 0.345256 秒
+SIMD哈希时间: 0.267524 秒
+加速比: 1.29056x
 Guesses generated: 8627212
 Guesses generated: 8807999
 Guesses generated: 8946318
@@ -414,16 +414,16 @@ Guesses generated: 9239569
 Guesses generated: 9383796
 Guesses generated: 9528822
 密码数量: 1045737
-串行哈希时间: 1.06769 秒
-SIMD哈希时间: 1.47653 秒
-加速比: 0.72311x
+串行哈希时间: 0.360094 秒
+SIMD哈希时间: 0.280643 秒
+加速比: 1.2831x
 Guesses generated: 9699507
 Guesses generated: 9853408
 Guesses generated: 10106852
-Guess time:7.74667seconds
-Hash time (serial):9.59138seconds
-Hash time (SIMD):13.3459seconds
-Hash speedup:0.718674x
-Train time:97.5477seconds
+Guess time:0.569155seconds
+Hash time (serial):3.2859seconds
+Hash time (SIMD):2.6601seconds
+Hash speedup:1.23525x
+Train time:29.5325seconds
 
 Authorized users only. All activities may be monitored and reported.

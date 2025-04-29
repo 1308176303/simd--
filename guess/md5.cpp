@@ -278,10 +278,10 @@ void MD5Hash_SIMD(const string* inputs, size_t input_count, bit32** states) {
 				for (size_t i = 0; i < current_batch_size; i++) {
 					if (block < n_blocks[i]) {
 						// 检查是否可以使用32位加载(内存对齐)
-						// uintptr_t addr0 = (uintptr_t)&paddedMessages[i][4*j + block*64];
-						// uintptr_t addr1 = (uintptr_t)&paddedMessages[i][4*(j+1) + block*64];
-						// uintptr_t addr2 = (uintptr_t)&paddedMessages[i][4*(j+2) + block*64];
-						// uintptr_t addr3 = (uintptr_t)&paddedMessages[i][4*(j+3) + block*64];
+						uintptr_t addr0 = (uintptr_t)&paddedMessages[i][4*j + block*64];
+						uintptr_t addr1 = (uintptr_t)&paddedMessages[i][4*(j+1) + block*64];
+						uintptr_t addr2 = (uintptr_t)&paddedMessages[i][4*(j+2) + block*64];
+						uintptr_t addr3 = (uintptr_t)&paddedMessages[i][4*(j+3) + block*64];
 						
 						// 对齐的32位加载更高效
 						values0[i] = *(uint32_t*)&paddedMessages[i][4*j + block*64];
